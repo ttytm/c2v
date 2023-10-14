@@ -2,7 +2,9 @@ name: CI
 
 on:
   push:
+    paths-ignore: ['**/*.md', '^\.*', 'Makefile', 'LICENSE']
   pull_request:
+    paths-ignore: ['**/*.md', '^\.*', 'Makefile', 'LICENSE']
   schedule:
     - cron: '31 1,12 * * *'
 
