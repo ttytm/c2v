@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Checkout V
+      - name: Checkout Vs
         uses: actions/checkout@v4
         with:
           repository: vlang/v
